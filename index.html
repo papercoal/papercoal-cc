@@ -14,8 +14,8 @@
   a{color:inherit}
   .wrap{max-width:1100px;margin:0 auto}
   .bar{display:flex;justify-content:space-between;align-items:center;padding:22px 28px;border-bottom:1px solid rgba(211,228,241,.12)}
-  .mark{font-family:'Dela Gothic One',sans-serif;font-size:20px;letter-spacing:.04em;color:#fff;text-decoration:none}
-  .mail{font-size:14px;font-weight:500;opacity:.8;text-decoration:none}
+  .mark{display:block;line-height:0}.mark img{height:44px;width:44px;display:block}
+  .mail{font-size:14px;font-weight:500;opacity:.8;text-decoration:none;text-transform:uppercase;letter-spacing:.04em}
   .hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:40px;padding:64px 28px 48px;align-items:center}
   h1{font-family:'Dela Gothic One',sans-serif;font-weight:400;font-size:clamp(30px,4.4vw,48px);line-height:1.12;color:#fff;margin:0 0 20px}
   .sub{font-size:17px;line-height:1.6;margin:0 0 6px;opacity:.85}
@@ -40,7 +40,7 @@
 </head>
 <body>
 <div class="wrap">
-  <header class="bar"><a class="mark" href="https://papercoal.com">PAPERCOAL</a><a class="mail" href="mailto:hey@papercoal.com">hey@papercoal.com</a></header>
+  <header class="bar"><a class="mark" href="https://papercoal.com" aria-label="Papercoal"><img src="https://papercoal.com/cdn/shop/files/Icon_Habanero.png?v=1720337648&amp;width=120" alt="Papercoal" width="44" height="44"></a><a class="mail" href="mailto:hey@papercoal.com">hey@papercoal.com</a></header>
   <section class="hero">
     <div>
       <h1>INSPIRE YOUR TEAM, IMPRESS YOUR CLIENTS.</h1>
